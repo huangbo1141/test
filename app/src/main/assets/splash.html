@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        var increasing=true;
+        var widthThreshold=5;
+        function startResizing(){
+            var width=parseInt(document.getElementById('fanimg').style.width);
+            if (increasing){
+                document.getElementById('fanimg').style.width=(width+widthThreshold);
+            }else{
+                document.getElementById('fanimg').style.width=(width-widthThreshold);
+            }
+            width=parseInt(document.getElementById('fanimg').style.width);
+            if (increasing && width>=300){
+                increasing=false;
+            }
+            if (!increasing && width<=150){
+                increasing=true;
+            }
+        }
+    </script>
+</head>
+<body>
+<div style="width:100%;text-align:center;margin-top: 50px;font-weight: bold;font-size: 32px;">
+    <img src="logo_text.png" style="width:200px;" />
+</div>
+<div style="position:absolute;bottom:80px;width:100%;text-align:center;">
+    <img id="fanimg" src="fan.png" style="width:150px;" />
+</div>
+<script type="text/javascript">
+setInterval(startResizing,100);
+</script>
+</body>
+</html>

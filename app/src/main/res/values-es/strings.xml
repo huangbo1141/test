@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FAN4DRY</string>
+    <string name="Connection_to">"Conectando a: "</string>
+    <string name="SAB_number">Número SAB</string>
+    <string name="Bluetooth_not_enabled_onActivityResult">Bluetooth no habilitado</string>
+    <string name="Location_permission_denied">Permiso de localización denegado</string>
+    <string name="all_applied">Orden enviada</string>
+    <string name="applied">Enviado</string>
+    <string name="apply">Enviar</string>
+    <string name="bluetooth_not_enable_plesse_connect">Por favor conecta el Bluetooht</string>
+    <string name="boost_mode">Modo turbo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="connection">Conexión</string>
+    <string name="contract">Contrato</string>
+    <string name="device_pin_code">Código PIN</string>
+    <string name="fan_auto">Auto</string>
+    <string name="help">Ayuda</string>
+    <string name="password">Contraseña</string>
+    <string name="please_wait">Espere por favor</string>
+    <string name="preheat_temperature">Temperatura de precalentamiento</string>
+    <string name="sab_pause">Pausa</string>
+    <string name="set">Establecer</string>
+    <string name="settings">Ajustes</string>
+    <string name="setup">Instalador</string>
+    <string name="status">Estado</string>
+    <string name="store">Tienda</string>
+    <string name="sync_time_with_mobile">Sincronizar con fecha/hora del móvil</string>
+    <string name="user">Usuario</string>
+    <string name="connect_to_SAB_first">Conéctese a la SAB primero</string>
+    <string name="connecting_to_device">Conectando a la SAB</string>
+    <string name="SAB_disconnected">Desconectado de la SAB</string>
+    <string name="reconnecting_to_SAB">Reconectando a la SAB</string>
+</resources>
